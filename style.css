@@ -919,6 +919,7 @@ img {
   .hero-grid { grid-template-columns: 1fr; text-align: center; }
   .hero-visual { order: -1; }
   .hero-copy { align-items: center; }
+  .hero-actions { justify-content: center; }
   .about-grid,
   .contact-grid,
   .experience-grid,
@@ -930,6 +931,24 @@ img {
   }
   .avatar-card {
     margin: 0 auto;
+  }
+  .mobile-menu {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1rem;
+  }
+  .mobile-menu a {
+    padding: 0.85rem 0.75rem;
+  }
+  .contact-form {
+    margin-left: 0;
+    width: 100%;
+  }
+  .contact-form .btn-primary,
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    max-width: 100%;
   }
 }
 
